@@ -22,3 +22,7 @@ export type AddressEnrollment = {
 export type CEP = {
   cep: string;
 };
+
+export type InputTicketBody = {
+  ticketTypeId: number;
+};
